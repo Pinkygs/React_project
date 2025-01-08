@@ -1,12 +1,24 @@
 import React from 'react'
-import { MyComponent } from './components/MyComponent'
-import { MyComponent2 } from './components/MyComponent2'
+
 export const App = () => {
   return (
     <div>
-      <MyComponent />
-      <MyComponent2 />
+      <center>
+      <form>
+        <input type = 'text' />
+        <br />
+        <input type = 'email' />
+        <br />
+        <input type = 'password' />
+        <br />
+        <input type = 'password' />
+        <br />
+        <input type = 'submit' name = "submit" />
+        <br />
+        <br />
+        //https://fsdproject-4825c-default-rtdb.firebaseio.com/
+      </form>
+      </center>
     </div>
   )
 }
-export default App;
